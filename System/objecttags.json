@@ -1,0 +1,205 @@
+{
+    "objects":  [
+        {
+            "name": "motorcycle",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand' and changes <= 1",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": "LUFS-I"
+                },
+                {
+                    "condition": "current_tag == 'stand' and changes > 1",
+                    "value": "engine",
+                    "loudness": -15,
+                    "l_measurement_unit": "LUFS-I"
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -10,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "bus",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand' and changes <= 1",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'stand' and changes > 1",
+                    "value": "engine",
+                    "loudness": -15,
+                    "l_measurement_unit": "LUFS-I"
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -10,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "truck",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand' and changes <= 1",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'stand' and changes > 1",
+                    "value": "engine",
+                    "loudness": -15,
+                    "l_measurement_unit": "LUFS-I"
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -10,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "airplane",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand' and changes <= 1",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'stand' and changes > 1",
+                    "value": "engine",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -10,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "boat",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand' and changes <= 1",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'stand' and changes > 1",
+                    "value": "engine",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -15,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "train",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand' and changes <= 1",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'stand' and changes > 1",
+                    "value": "engine",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -10,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "car",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand' and changes <= 1",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'stand' and changes > 1",
+                    "value": "engine",
+                    "loudness": -18,
+                    "l_measurement_unit": "LUFS-I"
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -14,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "bicycle",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand'",
+                    "value": "",
+                    "loudness": null,
+                    "l_measurement_unit": ""
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "moving",
+                    "loudness": -22,
+                    "l_measurement_unit": "LUFS-I"
+                }
+            ]
+        },
+        {
+            "name": "bird",
+            "tags": [
+                {
+                    "condition": "current_tag == 'stand'",
+                    "value": "",
+                    "loudness": -10,
+                    "l_measurement_unit": "max LUFS-M"
+                },
+                {
+                    "condition": "current_tag == 'moving' and velocity > 5",
+                    "value": "",
+                    "loudness": -10,
+                    "l_measurement_unit": "max LUFS-M"
+                },
+                {
+                    "condition": "current_tag == 'moving'",
+                    "value": "",
+                    "loudness": -10,
+                    "l_measurement_unit": "max LUFS-M"
+                }
+            ]
+        }
+    ]
+}

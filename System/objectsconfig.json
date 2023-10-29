@@ -1,0 +1,121 @@
+{
+  "objects": [
+    {
+      "object_id": 1,
+      "name": "airplane",
+      "height_meters": 19.2024
+    },
+    {
+      "object_id": 2,
+      "name": "bicycle",
+      "height_meters": 0.9144
+    },
+    {
+      "object_id": 3,
+      "name": "boat",
+      "height_meters": 3.048
+    },
+    {
+      "object_id": 4,
+      "name": "bus",
+      "height_meters": 3.2004
+    },
+    {
+      "object_id": 5,
+      "name": "car",
+      "height_meters": 1.524
+    },
+    {
+      "object_id": 6,
+      "name": "motorcycle",
+      "height_meters": 0.9144
+    },
+    {
+      "object_id": 7,
+      "name": "train",
+      "height_meters": 3.3528
+    },
+    {
+      "object_id": 8,
+      "name": "truck",
+      "height_meters": 2.4384
+    },
+    {
+      "object_id": 10,
+      "name": "bird",
+      "height_meters": 0.09144
+    },
+    {
+      "object_id": 17,
+      "name": "frisbee",
+      "height_meters": 0.02
+    },
+    {
+      "object_id": 24,
+      "name": "ocean",
+      "height_meters": 1
+    }
+  ],
+  "additional objects": [
+    {
+      "object_id": 11,
+      "name": "cat",
+      "height_meters": 0.18288
+    },
+    {
+      "object_id": 12,
+      "name": "cell phone",
+      "height_meters": 0.03048
+    },
+    {
+      "object_id": 13,
+      "name": "clock",
+      "height_meters": 0.36576
+    },
+    {
+      "object_id": 14,
+      "name": "cow",
+      "height_meters": 1.46304
+    },
+    {
+      "object_id": 15,
+      "name": "dog",
+      "height_meters": 0.4572
+    },
+    {
+      "object_id": 16,
+      "name": "elephant",
+      "height_meters": 3.9624
+    },
+    {
+      "object_id": 18,
+      "name": "horse",
+      "height_meters": 1.524
+    },
+    {
+      "object_id": 19,
+      "name": "laptop",
+      "height_meters": 0.36576
+    },
+    {
+      "object_id": 20,
+      "name": "person",
+      "height_meters": 1.61544
+    },
+    {
+      "object_id": 21,
+      "name": "refrigerator",
+      "height_meters": 1.6764
+    },
+    {
+      "object_id": 22,
+      "name": "sheep",
+      "height_meters": 1.0668
+    },
+    {
+      "object_id": 23,
+      "name": "tv",
+      "height_meters": 1.0668
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "ipaddress": "139.6.76.107",
+    "default_display_size": 1.0,
+    "reaper_dir": "C:\\Program Files\\REAPER (x64)\\reaper.exe",
+    "frame_width": 854,
+    "frame_height": 480,
+    "min_confidence_threshold": 0.75,
+    "scene_accuracy": 5,
+    "video_duration": 0,
+    "velocity_threshold": 1.1,
+    "project_name": "My_AI_Sound_Project",
+    "render_active": true,
+    "render_values": {
+        "RENDER_SETTINGS": 2,
+        "RENDER_BOUNDSFLAG": 2,
+        "RENDER_TAILFLAG": 0,
+        "RENDER_CHANNELS": 2,
+        "RENDER_SRATE": 44100,
+        "RENDER_NORMALIZE": 65,
+        "RENDER_NORMALIZE_TARGET": 0.07079457843841382
+    },
+    "render_strings": {
+        "RENDER_FILE": "",
+        "RENDER_PATTERN": "untitled",
+        "RENDER_FORMAT": " FMW"
+    },
+    "vector_manipulation_thresholds": {
+        "t_object_pre_post_notice": 2
+    },
+    "default_settings": {
+        "min_confidence_threshold": 0.75,
+        "scene_accuracy": 5,
+        "render_active": false,
+        "project_name": "My_AI_Sound_Project",
+        "default_display_size": 1
+    }
+}

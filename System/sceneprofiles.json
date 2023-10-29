@@ -1,0 +1,65 @@
+{
+    "city": {
+        "pre_changes": [
+            {
+                "name": "rain",
+                "expressions": [
+                    "scene_tags.append('rain')"
+                ]
+            }
+        ],
+        "post_changes": [
+            {
+                "name": "ocean",
+                "expressions": [
+                    "ar.scene_rotation_from_to([1,0.0,0.0] ,objectLog[i]['vector'], scene_tag)"
+                ],
+                "search_sample": "False",
+                "multiple_executes": "False",
+                "executed": "False"
+            }
+        ]
+    },
+    "forest": {
+        "pre_changes": [
+            {
+                "name": "rain",
+                "expressions": [
+                    "scene_tags.append('rain')"
+                ]
+            }
+        ],
+        "post_changes": [
+            {
+                "name": "ocean",
+                "expressions": [
+                    "ar.scene_rotation_from_to([1,0.0,0.0] ,objectLog[i]['vector'], scene_tag)"
+                ],
+                "search_sample": "False",
+                "multiple_executes": "False",
+                "executed": "False"
+            }
+        ]
+    },
+    "beach": {
+        "pre_changes": [
+            {
+                "name": "rain",
+                "expressions": [
+                    "scene_tags.append('rain')"
+                ]
+            }
+        ],
+        "post_changes": [
+            {
+                "name": "ocean",
+                "expressions": [
+                    "ar.scene_rotation_from_to([1,0.0,0.0] ,objectLog[i]['vector'], scene_tag)"
+                ],
+                "search_sample": "False",
+                "multiple_executes": "False",
+                "executed": "False"
+            }
+        ]
+    }
+}
